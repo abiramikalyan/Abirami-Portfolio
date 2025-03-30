@@ -1,0 +1,25 @@
+.contact-container{
+   margin: 4rem 0;
+   position: relative;
+
+}
+.contact-container h5{
+    font-size: 1.5rem;
+    font-weight: bolder;
+    margin-bottom: 3rem;
+}
+
+.contact-content{
+    gap: 3rem;
+    display: flex;
+}
+@media (max-width:770px) {
+    .contact-content{
+        flex-direction: column-reverse;
+    }
+    .contact-container h5{
+        font-size: 1.5rem;
+        margin-bottom: 3rem;
+    }
+    
+}

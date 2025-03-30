@@ -1,0 +1,131 @@
+.nav-wrapper{
+    background:rgba(0,0,0,0.1);
+    position: sticky;
+    backdrop-filter: blur(50px);
+    top: 0%;
+    padding: 0.5rem 0;
+    z-index: 30;
+}
+.nav-content{
+    max-width: 1000px;
+    padding: 0.5rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 ;
+    margin-left: -950px;
+    
+}
+
+.logo{
+    width: 500px;
+    height: 100px;
+  margin-left: 970px;
+    
+}
+.nav-content ul{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    gap: 0.5rem;
+    padding: 15px;
+    list-style: none;
+    
+}
+.nav-content li{
+    margin: 0 0.85rem;
+}
+.nav-item{
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: #fff;
+    position: relative;
+    cursor: pointer;
+    text-decoration: none;
+}
+.contact-btn{
+    padding: 2px;
+    width: 100px;
+    height: 40px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    background:linear-gradient(90deg,#a993fe 0%,#7e61e7 100%);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: 1.5px solid transparent;
+    color: #fff;
+    transition: all 0.3s ease;
+}
+.contact-btn:hover{
+    background: #000;
+    color: #a993fe;
+    outline: 1.5px solid #a993fe;
+}
+
+.nav-item::before{
+    content: " ";
+    background: linear-gradient(90deg,#a993fe 0%,#7e61e7 100%);
+    border-radius: 0.5rem;
+    opacity: 0%;
+    width: 2rem;
+    height: 0.2rem;
+    position: absolute;
+    transform: translateX(-1.5rem);
+    transition: all 0.3s ease;
+    bottom: -0.6rem;
+}
+.nav-item:hover::before{
+    transform: translateX(0);
+    width: 100%;
+    opacity: 1;
+}
+.menu-btn{
+    width: 2.5rem;
+    height: 2.5rem;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    background:linear-gradient(90deg,#a993fe 0%,#7e61e7 100%);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: 1.5px solid transparent;
+    color: #fff;
+    transition: all 0.4s ease;
+}
+.menu-btn:hover{
+    background: #000;
+    color: #a993fe;
+    border: 1.5px solid #a993fe;
+}
+@media (max-width:770px) {
+    .nav-wrapper ul{
+        display: none;
+    }
+    .menu-btn{
+        display: block;
+    }
+    
+}
+@media (max-width:1325px) {
+    .nav-wrapper{
+        padding: 0 2rem;
+    }
+    
+}
+@media (max-width:430px) {
+    .logo{
+        height: auto;
+        width: 1000px;
+    }
+}
+.nav-content img{
+    width: 25rem;
+    
+}
+
