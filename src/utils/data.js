@@ -72,6 +72,20 @@ export const EXPERIENCE=[
         "Gained hands-on experience in frontend development, RESTful API integration, and agile software development methodologies."
        
     ]
+},
+
+{
+    title:"Software Developer Intern",
+    date:"26 May 2025 - 25 June 2025",
+    responsibilities:[
+        "Completed 1 MONTH internship as Software Developer Intern at ZERONORTH ( ALPHA ORI TECHNOLOGIES ) ",
+         "Collaborated with the development team on real-time features for enterprise applications.",
+  "Worked on debugging and enhancing existing modules to improve system performance.",
+  "Assisted in writing clean, maintainable code and participating in regular code reviews.",
+  "Gained hands-on experience in Agile-based software development lifecycle and team collaboration tools.",
+  "Contributed to developing UI components and integrating backend APIs to ensure seamless user experiences."
+       
+    ]
 }
 
 ];
