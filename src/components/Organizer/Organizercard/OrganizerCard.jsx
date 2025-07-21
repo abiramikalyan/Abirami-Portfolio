@@ -1,10 +1,10 @@
 import React from 'react'
-import './Projectcard.css'
+import './OrganizerCard.css'
 
 
-const Projectcard= ({details}) => {
+const OrganizerCard= ({details}) => {
   return (
-    <div className='projects-card'>
+    <div className='organizers-card'>
         <h6>{details.title}</h6>
       
       <ul>
@@ -13,9 +13,10 @@ const Projectcard= ({details}) => {
         ))}
       </ul>
       <img 
-        src={require(`../Projectcard/images/${details.image}`)} 
+         src={details.image} 
+
         alt={details.title} 
-        className="projects-image"
+        className="organizers-image"
       />
   
      
@@ -24,4 +25,4 @@ const Projectcard= ({details}) => {
   )
 }
 
-export default Projectcard;
+export default OrganizerCard;

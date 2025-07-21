@@ -9,6 +9,7 @@ import Footer from './components/Footer/Footer';
 import Achievements from './components/Achievements/Achievements';
 import Projects from './components/Projects/Projects';
 import About from './components/About/About';
+import Organizer from './components/Organizer/Organizer';
 
 
  const App = () => {
@@ -22,6 +23,7 @@ import About from './components/About/About';
         <Experience/>
         <Projects/>
         <Achievements/>
+        <Organizer/>
         <About/>
         <Contact/>
 

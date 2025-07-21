@@ -169,3 +169,22 @@ transform: translateY(-0.5rem);
     }
     
 }
+
+.download-btn {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.5rem 1.2rem;
+  background:linear-gradient(90deg,#a993fe 0%,#7e61e7 100%);
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+  margin-left: 120px;
+  
+}
+
+.download-btn:hover {
+   background: #000;
+    color: #a993fe;
+    outline: 1.5px solid #a993fe;
+}
