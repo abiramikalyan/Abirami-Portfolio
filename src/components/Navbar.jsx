@@ -37,6 +37,9 @@ export const Navbar = () => {
                 <li>
                     <a className='nav-item' href="">ACHIEVEMENTS</a>
                 </li>
+                 <li>
+                    <a className='nav-item' href="">ORGANIZER</a>
+                </li>
                 <li>
                     <a className='nav-item' href="">ABOUT </a>
                 </li>
